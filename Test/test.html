@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/Global_Setting.js"></script>
+    <script src="js/doajax.js"></script>
+    <script src="js/Stock.js"></script>
+    <script src="js/RcRate.js"></script>
+    <script src="js/test.js"></script>
+    <script src="http://connect.facebook.net/zh_TW/all.js"></script>
+</head>
+
+<body>
+    <div id="fb-root">
+    </div>
+    <p>
+        <input id="FBLogin" type="button" value="登入臉書" />
+    </p>
+    <p>
+        <span id="uid"></span>
+        <br>
+        <span id="accessToken"></span>
+    </p>
+    <div class="outer">
+        <div class='stock_table'>
+            <table border=1>
+                <thead>
+                    <tr>
+                        <th colspan=3 style='text-align: center;'>股票</th>
+                    </tr>
+                    <tr>
+                        <th colspan=3>
+                            <input type='button' value='查詢' />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>名稱</th>
+                        <th>代號</th>
+                        <th>股價</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class='rcrate_table'>
+            <table border=1>
+                <thead>
+                    <tr>
+                        <th colspan=3 style='text-align: center;'>外匯</th>
+                    </tr>
+                    <tr>
+                        <th colspan=3>
+                            <input type='button' value='查詢' />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>名稱</th>
+                        <th>匯別</th>
+                        <th>匯率</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

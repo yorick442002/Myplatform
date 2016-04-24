@@ -1,0 +1,27 @@
+div.outer {
+	left: 400px;
+	top:50px;
+	position: relative;
+}
+div.outer div.stock_table {
+	position: relative;
+	margin: 40px;
+	float: left;
+}
+div.outer div.rcrate_table {
+	position: relative;
+	margin: 40px;
+	float: left;
+}
+div.outer div.stock_table thead tr:first-child{
+	background: yellow;
+}
+div.outer div.rcrate_table thead tr:first-child{
+	background: lightblue;
+}
+div.outer div.stock_table tbody tr:nth-child(odd){
+	background: lightgray;
+}
+div.outer div.rcrate_table tbody tr:nth-child(odd){
+	background: lightgray;
+}
